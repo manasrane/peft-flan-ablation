@@ -25,3 +25,18 @@ experiments/*.tmp
 
 # OS
 .DS_Store
+
+
+cat <<EOF >> .gitignore
+# Model weights
+*.safetensors
+*.bin
+*.pt
+
+# Checkpoints
+checkpoints/
+results/**/checkpoint-*/
+
+# HF cache
+.cache/
+EOF
