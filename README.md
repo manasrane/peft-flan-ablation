@@ -1,6 +1,7 @@
 # PEFT Ablation on Flan-T5-small
 
 This project compares Parameter-Efficient Fine-Tuning (PEFT) methods on Flan-T5-small for classification and summarization tasks.
+Conducted a systematic parameter-efficiency study on Flan-T5-small comparing full fine-tuning, LoRA, prefix-tuning, and prompt-tuning across classification and summarization tasks; demonstrated that LoRA achieves near-full performance with <3% trainable parameters, supported by reproducible experiments and performance–parameter tradeoff analysis.
 
 ## Methods Compared
 - Full Fine-Tuning
