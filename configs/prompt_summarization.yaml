@@ -1,0 +1,5 @@
+method: prompt
+task: summarization
+num_train_samples: 2000
+num_eval_samples: 500
+num_virtual_tokens: 20

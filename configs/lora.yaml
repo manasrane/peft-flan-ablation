@@ -1,0 +1,7 @@
+method: lora
+task: classification
+num_train_samples: 2000
+num_eval_samples: 500
+r: 8
+lora_alpha: 32
+lora_dropout: 0.1

@@ -1,0 +1,4 @@
+method: full_ft
+task: summarization
+num_train_samples: 2000
+num_eval_samples: 500

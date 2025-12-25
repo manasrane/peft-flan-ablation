@@ -1,0 +1,13 @@
+torch
+transformers
+peft
+datasets
+evaluate
+matplotlib
+seaborn
+pandas
+pyyaml
+scikit-learn
+nltk
+rouge-score
+sentencepiece
